@@ -1,0 +1,5 @@
+fields:
+    cename:
+        label: Name
+        span: auto
+        type: text

@@ -1,0 +1,34 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    userid:
+        label: userid
+        type: number
+    amount:
+        label: amount
+        type: number
+    ispaid:
+        label: ispaid
+        type: text
+    cemail:
+        label: cemail
+        type: text
+    cname:
+        label: cname
+        type: text
+    paycode:
+        label: paycode
+        type: text
+    client_secret:
+        label: client_secret
+        type: text

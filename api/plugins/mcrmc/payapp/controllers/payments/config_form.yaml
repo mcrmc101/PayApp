@@ -1,0 +1,10 @@
+name: Payments
+form: $/mcrmc/payapp/models/payment/fields.yaml
+modelClass: Mcrmc\Payapp\Models\Payment
+defaultRedirect: mcrmc/payapp/payments
+create:
+    redirect: 'mcrmc/payapp/payments/update/:id'
+    redirectClose: mcrmc/payapp/payments
+update:
+    redirect: mcrmc/payapp/payments
+    redirectClose: mcrmc/payapp/payments

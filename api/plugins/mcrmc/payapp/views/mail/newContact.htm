@@ -1,0 +1,11 @@
+{% set pathToFile = 'storage/app/media/payapplogo1.png' | app %}
+<img src="{{ message.embed(pathToFile) }}">
+<br>
+<h1 style="font-size: 2em; text-align:center;">Contact from {{ cname }}</h1>
+<p>{{ cname }} at {{ cemail }} Has enquired about PayApp:
+    <br>
+    <br>
+    {{ mess }}
+    <br>
+    <strong>PayApp</strong>
+</p>

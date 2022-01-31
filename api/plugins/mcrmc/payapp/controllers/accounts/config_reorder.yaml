@@ -1,0 +1,4 @@
+title: Accounts
+modelClass: Mcrmc\Payapp\Models\Account
+toolbar:
+    buttons: reorder_toolbar

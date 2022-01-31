@@ -1,0 +1,13 @@
+{% set pathToFile = 'storage/app/media/payapplogo1.png' | app %}
+<img src="{{ message.embed(pathToFile) }}">
+<br>
+<h1 style="font-size: 2em; text-align:center;">Payment Received from {{ cname }}</h1>
+<p>Hi {{ name }},
+    <br>
+    {{ cname }} has completed a payment for £{{ amount }}.
+    <br>
+    Please check your Stripe Dashboard to see when the payment will be transferred to your account.
+    <br>
+    Thanks for using
+    <strong>PayApp</strong>
+</p>

@@ -1,0 +1,34 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    userid:
+        label: userid
+        type: number
+    email:
+        label: email
+        type: text
+    skey:
+        label: skey
+        type: text
+    pkey:
+        label: pkey
+        type: text
+    skey_test:
+        label: skey_test
+        type: text
+    pkey_test:
+        label: pkey_test
+        type: text
+    islive:
+        label: islive
+        type: text

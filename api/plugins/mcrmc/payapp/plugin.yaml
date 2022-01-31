@@ -1,0 +1,16 @@
+plugin:
+    name: 'mcrmc.payapp::lang.plugin.name'
+    description: 'mcrmc.payapp::lang.plugin.description'
+    author: Mcrmc
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Payments
+        url: mcrmc/payapp/payments
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Accounts
+                url: mcrmc/payapp/accounts
+                icon: icon-sitemap

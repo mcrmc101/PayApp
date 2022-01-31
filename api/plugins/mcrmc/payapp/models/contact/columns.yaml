@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime
+    cemail:
+        label: cemail
+        type: text
+    cename:
+        label: cename
+        type: text
+    message:
+        label: message
+        type: text

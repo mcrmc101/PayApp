@@ -1,0 +1,13 @@
+{% set pathToFile = 'storage/app/media/payapplogo1.png' | app %}
+<img src="{{ message.embed(pathToFile) }}">
+<br>
+<h1 style="font-size: 2em; text-align:center;">Payment request from {{ name }}</h1>
+<p>Hi {{ cname }},
+    <br>
+    {{ name }} has created a PayApp payment form for you to complete. Please click the button below and follow the link.
+    <br>
+    Thanks,
+    <strong>PayApp</strong>
+</p>
+<br>
+<a href="{{ payurl }}" class="button button-primary" style="font-size: 2em; text-align:center;">Your Payment Form</a>
